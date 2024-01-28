@@ -4,13 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>web app</title>
   </head>
   <body>
     <main>
-      <label for="name-input"> Name:</label>
-      <input type="text" id="name-input" />
-      <button>Add name</button>
+      <div class="add-text">
+        <label for="name-input"> Name:</label>
+        <input type="text" id="name-input" />
+        <button>Add name</button>
+      </div>
+
+      <div class="search">
+        <input placeholder="search by name" id="search" type="text" />
+        <button>search</button>
+      </div>
+
+      <div class="table">
+        <table>
+          <thead>
+            <tr class="t-raw">
+              <th class="t-col-head">ID</th>
+              <th class="t-col-head">name</th>
+              <th class="t-col-head">Date Added</th>
+              <th class="t-col-head">Delete</th>
+              <th class="t-col-head">Edit</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding: 1em;
+  margin: 1em auto;
+  text-align: center;
+}
+.add-text {
+  margin: 0.1em;
+}
+.search {
+  margin: 0.5em;
+}
+.table {
+  margin: auto;
+}
+table {
+  margin: 1em auto;
+}
+table,
+th,
+td {
+  border: 0.1px solid #000;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
